@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "TutorTot",
+    "description": "An extension to help you stay focused!",
+    "version": "3",
+    
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },    
+    "permissions": [
+      "notifications", 
+      "storage", 
+      "alarms"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon16.png"
+    }
+}
